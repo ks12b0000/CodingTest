@@ -8,9 +8,11 @@ public class Remain {
 		Scanner scan = new Scanner (System.in);
 		HashSet<Integer> h = new HashSet<Integer>();
 		
-		for(int i = 0; i < 10; i ++) {
+		for(int i = 0; i < 10; i++) {
 			h.add(scan.nextInt()%42);
-		}System.out.println(h.size());
+		}
+		System.out.println(h.size());
+		
 		
 		scan.close();
 

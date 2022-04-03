@@ -18,8 +18,8 @@ public class NumCount {
 				}
 			}System.out.println(count);
 		}
+			
 		
 		scan.close();
 	}
-
 }
