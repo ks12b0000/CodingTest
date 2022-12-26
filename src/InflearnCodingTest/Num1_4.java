@@ -45,10 +45,10 @@ public class Num1_4 {
 //		String[] str = new String[num];
 //		
 //		for (int i = 0; i < num; i++) {
-//			str[i] = sc.next();
+//			str[i] = sc.next();				// num개수 만큼 str 입력 
 //		}
 //		
-//		for (String x : str) {
+//		for (String x : str) {				// x에 str 하나씩 담은 다음 new StringBuilder(x).reverse() 사용하여 문자열 뒤집어줌.
 //			String tmp = new StringBuilder(x).reverse().toString();
 //			System.out.println(tmp);
 //		}
